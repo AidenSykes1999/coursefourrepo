@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book A Cab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        div {
+            border: 2px solid orange;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Book A Cab</h2>
+        <form action="add" method="post">
+            <label>From Location:</label>
+            <input type="text" name="fromLocation" required><br><br>
+            <label>To Location:</label>
+            <input type="text" name="toLocation" required><br><br>
+            <label>Type of Cab:</label>
+            <input type="number" name="cabType" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
